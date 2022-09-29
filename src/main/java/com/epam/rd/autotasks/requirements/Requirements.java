@@ -3,8 +3,9 @@ package com.epam.rd.autotasks.requirements;
 public class Requirements {
 
     public static void requireNonNull(Object obj) {
+
         if (obj==null) throw new NullPointerException();
-    }
+    }//new project
     public static void requireNonNull(Object obj, String message) {
         if(obj==null) throw new NullPointerException(message);
     }
